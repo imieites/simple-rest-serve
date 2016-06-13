@@ -15,8 +15,7 @@ function respond(req, res, next) {
 }
 
 function respondPromotions(req,res,next) {
-  var promotionsRes = {
-    "promotions": [
+  var promotionsRes = [
     {
       "code": "1234OF",
       "endDate": "2016-06-01T23:00:00.000",
@@ -116,8 +115,7 @@ function respondPromotions(req,res,next) {
         }
       ]
     }
-  ]
-  }
+  ];
 
   res.send(promotionsRes);
 }
