@@ -1,6 +1,14 @@
 var restify = require("restify");
 var server = restify.createServer();
 
+server.use(
+  function crossOrigin(req,res,next){
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    return next();
+  }
+);
+
 server.get('/', respond);
 server.get('/api/promotions', respondPromotions);
 
