@@ -122,6 +122,43 @@ function respondPromotions(req,res,next) {
           ]
         }
       ]
+    },
+    {
+      "code": "1234OG",
+      "endDate": "2016-12-15T23:00:00.000",
+      "description": "30% de Descuento en Heladeras",
+      "goal":"producto",
+      "type": "catalogo",
+      "priority": 100,
+      "price": 5000.34,
+      "currency": "AR",
+      "monthlySelledCount": 23,
+      "currentDateSelledCount": 3,
+      "hotPromotion": true,
+      "deals": [
+        {
+          "restrictions": [
+            {
+              "type": "producto",
+              "description": "heladeras"
+            }
+          ]
+        },
+        {
+          "restrictions": [
+            {
+              "type": "producto",
+              "description": "heladeras"
+            }
+          ],
+          "actions": [
+            {
+              "type": "precio fijo ",
+              "description": "$1900"
+            }
+          ]
+        }
+      ]
     }
   ];
 
