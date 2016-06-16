@@ -26,7 +26,7 @@ function respondPromotions(req,res,next) {
   var promotionsRes = [
     {
       "code": "1234OF",
-      "endDate": "2016-06-01T23:00:00.000",
+      "endDate": "2017-06-01T23:00:00.000",
       "description": "30% de Descuento en TV LED Samsung 55''",
       "goal":"producto",
       "type": "catalogo",
@@ -77,7 +77,7 @@ function respondPromotions(req,res,next) {
     },
     {
       "code": "4444OF",
-      "endDate": "2016-06-02T23:00:00.000",
+      "endDate": "2017-06-02T23:00:00.000",
       "description": "12 Cuotas sin interes en TV LED Samsung 55''",
       "type": "megadia",
       "priority": 98,
