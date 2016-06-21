@@ -79,6 +79,7 @@ function respondPromotions(req,res,next) {
       "code": "4444OF",
       "endDate": "2017-06-02T23:00:00.000",
       "description": "12 Cuotas sin interes en TV LED Samsung 55''",
+      goal:"catalogo",
       "type": "megadia",
       "priority": 98,
       "monthlySelledCount": 12,
