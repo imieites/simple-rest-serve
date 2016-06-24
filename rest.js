@@ -170,6 +170,7 @@ function respondPromotions(req,res,next) {
 function respondProduct(req, res, next){
   var id = req.params.id;
 
+
   var product = {
     "productCode":163205,
     "category":"CLI",
@@ -402,7 +403,7 @@ function respondProduct(req, res, next){
     ]
   }
 
-  if(id === 163205){
+  if(id === product.productCode){
     res.send(product);
   }else{
     res.send("There is no product with that id");
