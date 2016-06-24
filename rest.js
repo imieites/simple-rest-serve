@@ -201,7 +201,6 @@ function respondNotifications(req,res,next) {
 
 function respondProduct(req, res, next){
   var id = req.params.id;
-  console.log(req);
 
   var product = {
     "productCode":163205,
@@ -438,7 +437,8 @@ function respondProduct(req, res, next){
   if(id == product.productCode){
     res.send(product);
   }else{
-    res.send("There is no product with that id");
+    res.status(400);
+    res.send('There is no product with id ' + id);
   }
 
 }
