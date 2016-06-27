@@ -439,7 +439,7 @@ function respondProduct(req, res, next){
   if(id == product.productCode){
     res.send(product);
   }else{
-    res.status(400);
+    res.status(404);
     res.send('There is no product with id ' + id);
   }
 
