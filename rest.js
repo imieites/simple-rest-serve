@@ -171,18 +171,18 @@ function respondProduct(req, res, next){
   var id = req.params.id;
 
   var product = {
-    "productCode":163205,
-    "category":"CLI",
-    "subCategory":"AIR",
-    "typeCode":"POR",
-    "brand":"ATMA",
-    "description":"AIRE PORT.3,0KWFS ATP30C12 CR ",
-    "largeDescritpion":"AIRE PORT.3,0KWFS ATP30C12 CR ",
-    "origin":null,
-    "saleCashPrice":3609.0,
-    "saleListPrice":3609.0,
-    "author":"",
-    "discontinuity":3,
+    "productCode": 163205,
+    "category": "CLI",
+    "subCategory": "AIR",
+    "typeCode": "POR",
+    "brand": "ATMA",
+    "description": "AIRE PORT.3,0KWFS ATP30C12 CR ",
+    "largeDescritpion": "AIRE PORT.3,0KWFS ATP30C12 CR ",
+    "origin": null,
+    "saleCashPrice": 3609.0,
+    "saleListPrice": 3609.0,
+    "author": "",
+    "discontinuity": 3,
     "stock": [
       {
         "store": 404,
@@ -197,138 +197,138 @@ function respondProduct(req, res, next){
     ],
     "productFeatures":[
       {
-        "label":"Descripcion corta",
-        "value":""
+        "label": "Descripcion corta",
+        "value": ""
       },
       {
-        "label":"Descripcion larga",
-        "value":"Diseño Compacto. Ultra Silencioso. Filtro totalmente Lavable. Display LCD. Temporizador 12hs. Novedoso accesorio de instalación manual. 3 Modos Operación: Refrigeración, Deshumidificación y Ventilación. Gas R-410a."
+        "label": "Descripcion larga",
+        "value": "Diseño Compacto. Ultra Silencioso. Filtro totalmente Lavable. Display LCD. Temporizador 12hs. Novedoso accesorio de instalación manual. 3 Modos Operación: Refrigeración, Deshumidificación y Ventilación. Gas R-410a."
       },
       {
-        "label":"Jerarquia",
-        "value":""
+        "label": "Jerarquia",
+        "value": ""
       },
       {
-        "label":"Cubicaje",
-        "value":""
+        "label": "Cubicaje",
+        "value": ""
       },
       {
-        "label":"Precio costo",
-        "value":""
+        "label": "Precio costo",
+        "value": ""
       },
       {
-        "label":"Precio venta",
-        "value":""
+        "label": "Precio venta",
+        "value": ""
       },
       {
-        "label":"Indice ABC",
-        "value":""
+        "label": "Indice ABC",
+        "value": ""
       },
       {
-        "label":"Imagen",
-        "value":""
+        "label": "Imagen",
+        "value": ""
       },
       {
-        "label":"Origen",
-        "value":"CHINA"
+        "label": "Origen",
+        "value": "CHINA"
       },
       {
-        "label":"Garantía",
-        "value":""
+        "label": "Garantía",
+        "value": ""
       },
       {
-        "label":"Alto",
-        "value":"77.5  Cm"
+        "label": "Alto",
+        "value": "77.5  Cm"
       },
       {
-        "label":"Profundidad",
-        "value":"38.2  Cm"
+        "label": "Profundidad",
+        "value": "38.2  Cm"
       },
       {
-        "label":"Ancho",
-        "value":"46.5  Cm"
+        "label": "Ancho",
+        "value": "46.5  Cm"
       },
       {
-        "label":"Peso",
-        "value":"31  Kg"
+        "label": "Peso",
+        "value": "31  Kg"
       },
       {
-        "label":"Producto",
-        "value":"AIRE ACONDICIONADO - PORTATIL"
+        "label": "Producto",
+        "value": "AIRE ACONDICIONADO - PORTATIL"
       },
       {
-        "label":"Modelo",
-        "value":"ATP30C12"
+        "label": "Modelo",
+        "value": "ATP30C12"
       },
       {
-        "label":"Tipo de gas refrigerante",
-        "value":""
+        "label": "Tipo de gas refrigerante",
+        "value": ""
       },
       {
-        "label":"Display",
-        "value":"Si"
+        "label": "Display",
+        "value": "Si"
       },
       {
-        "label":"Timer",
-        "value":"Si"
+        "label": "Timer",
+        "value": "Si"
       },
       {
-        "label":"Color",
-        "value":"Blanco"
+        "label": "Color",
+        "value": "Blanco"
       },
       {
-        "label":"Frigorias",
-        "value":"2580  Fg/h"
+        "label": "Frigorias",
+        "value": "2580  Fg/h"
       },
       {
-        "label":"Potencia",
-        "value":"1150  W"
+        "label": "Potencia",
+        "value": "1150  W"
       },
       {
-        "label":"Eficiencia energética",
-        "value":"A"
+        "label": "Eficiencia energética",
+        "value": "A"
       },
       {
-        "label":"Control remoto",
-        "value":"SSDD"
+        "label": "Control remoto",
+        "value": "SSDD"
       },
       {
-        "label":"Tipo",
-        "value":"FRIO SOLO"
+        "label": "Tipo",
+        "value": "FRIO SOLO"
       }
     ],
     "extendedWarranty": true,
     "promotions":[
       {
-        "code":"1234OF",
-        "endDate":"2016-06-01T23:00:00.000",
-        "description":"30% de Descuento en TV LED Samsung 55''",
-        "type":"catalogo",
-        "priority":100,
+        "code": "1234OF",
+        "endDate": "2016-06-01T23:00:00.000",
+        "description": "30% de Descuento en TV LED Samsung 55''",
+        "type": "catalogo",
+        "priority": 100,
         "price": 240.34,
         "currency": "AR",
-        "monthlySalesCount":23,
-        "currentDateSalesCount":3,
-        "hotPromotion":true,
+        "monthlySalesCount": 23,
+        "currentDateSalesCount": 3,
+        "hotPromotion": true,
         "deals": [
           {
             "restrictions":   [
               {
-                "type":"producto",
-                "descrition":"todos"
+                "type": "producto",
+                "descrition": "todos"
               },
               {
-                "type":"contexto",
-                "descrition":"Resistencia - Santiago"
+                "type": "contexto",
+                "descrition": "Resistencia - Santiago"
               }
             ],
             "actions": [
               {
-                "type":"plan de financiacion",
-                "descrition":"24 cuotas de 73.90"
+                "type": "plan de financiacion",
+                "descrition": "24 cuotas de 73.90"
               },
               {
-                "type":"precio fijo ",
+                "type": "precio fijo ",
                 "descrition": "$1900"
               }
             ]
@@ -336,13 +336,13 @@ function respondProduct(req, res, next){
           {
             "restrictions":   [
               {
-                "type":"producto",
-                "descrition":"todos"
+                "type": "producto",
+                "descrition": "todos"
               }
             ],
             "actions": [
               {
-                "type":"precio fijo ",
+                "type": "precio fijo ",
                 "descrition": "$1900"
               }
             ]
@@ -351,33 +351,33 @@ function respondProduct(req, res, next){
 
       },
       {
-        "code":"4444OF",
-        "endDate":"2016-06-01T23:00:00.000",
-        "description":"12 Cuotas sin interes en TV LED Samsung 55''",
-        "type":"megadia",
-        "priority":98,
-        "monthlySalesCount":12,
-        "currentDateSalesCount":5,
-        "hotPromotion":true,
+        "code": "4444OF",
+        "endDate": "2016-06-01T23:00:00.000",
+        "description": "12 Cuotas sin interes en TV LED Samsung 55''",
+        "type": "megadia",
+        "priority": 98,
+        "monthlySalesCount": 12,
+        "currentDateSalesCount": 5,
+        "hotPromotion": true,
         "deals": [
           {
             "restrictions":   [
               {
-                "type":"producto",
-                "descrition":"todos"
+                "type": "producto",
+                "descrition": "todos"
               },
               {
-                "type":"contexto",
-                "descrition":"Resistencia - Santiago"
+                "type": "contexto",
+                "descrition": "Resistencia - Santiago"
               }
             ],
             "actions": [
               {
-                "type":"plan de financiacion",
-                "descrition":"24 cuotas de 73.90"
+                "type": "plan de financiacion",
+                "descrition": "24 cuotas de 73.90"
               },
               {
-                "type":"precio fijo ",
+                "type": "precio fijo ",
                 "descrition": "$1900"
               }
             ]
@@ -385,13 +385,13 @@ function respondProduct(req, res, next){
           {
             "restrictions":   [
               {
-                "type":"producto",
-                "descrition":"todos"
+                "type": "producto",
+                "descrition": "todos"
               }
             ],
             "actions": [
               {
-                "type":"precio fijo ",
+                "type": "precio fijo ",
                 "descrition": "$1900"
               }
             ]
