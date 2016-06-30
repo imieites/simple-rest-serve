@@ -81,6 +81,7 @@ function respondPromotions(req,res,next) {
       "code": "4444OF",
       "endDate": "2017-06-02T23:00:00.000",
       "description": "12 Cuotas sin interes en TV LED Samsung 55''",
+      "goal":"megadia",
       "type": "megadia",
       "priority": 98,
       "monthlySelledCount": 12,
@@ -229,7 +230,7 @@ function respondProduct(req, res, next){
     "productFeatures":[
       {
         "label": "Descripcion corta",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Descripcion larga",
@@ -237,27 +238,27 @@ function respondProduct(req, res, next){
       },
       {
         "label": "Jerarquia",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Cubicaje",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Precio costo",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Precio venta",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Indice ABC",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Imagen",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Origen",
@@ -265,7 +266,7 @@ function respondProduct(req, res, next){
       },
       {
         "label": "Garantía",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Alto",
@@ -293,7 +294,7 @@ function respondProduct(req, res, next){
       },
       {
         "label": "Tipo de gas refrigerante",
-        "value": ""
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       },
       {
         "label": "Display",
