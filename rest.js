@@ -11,6 +11,7 @@ server.use(
 
 server.get('/', respond);
 server.get('/api/promotions', respondPromotions);
+server.get('/api/notifications', respondNotifications);
 server.get('/api/product/:id', respondProduct);
 
 var port = process.env.PORT || 5000;
@@ -80,7 +81,6 @@ function respondPromotions(req,res,next) {
       "code": "4444OF",
       "endDate": "2017-06-02T23:00:00.000",
       "description": "12 Cuotas sin interes en TV LED Samsung 55''",
-      goal:"catalogo",
       "type": "megadia",
       "priority": 98,
       "monthlySelledCount": 12,
@@ -408,4 +408,35 @@ function respondProduct(req, res, next){
     res.send("There is no product with that id");
   }
 
+}
+
+function respondNotifications(req,res,next) {
+  var notificationsRes = [
+    {
+      "code": "00001",
+      "sendDate": "2016-06-01T23:00:00.000",
+      "title": "Ventas",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "code": "00002",
+      "sendDate": "2016-06-01T23:00:00.000",
+      "title": "Administración",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "code": "00003",
+      "sendDate": "2016-06-01T23:00:00.000",
+      "title": "Global",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "code": "00004",
+      "sendDate": "2016-06-01T23:00:00.000",
+      "title": "Varios",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ];
+
+  res.send(notificationsRes);
 }
