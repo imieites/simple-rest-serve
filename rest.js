@@ -203,7 +203,7 @@ function respondProduct(req, res, next){
   var id = req.params.id;
 
   var product = {
-    "productCode": 163205,
+    "productCode": 1,
     "category": "CLI",
     "subCategory": "AIR",
     "typeCode": "POR",
@@ -388,7 +388,7 @@ function respondProduct(req, res, next){
         "endDate": "2017-06-01T23:00:00.000",
         "description": "12 Cuotas sin interes en TV LED Samsung 55''",
         "type": "megadia",
-        goal:"megadia",
+        "goal":"megadia",
         "priority": 98,
         "monthlySalesCount": 12,
         "currentDateSalesCount": 5,
