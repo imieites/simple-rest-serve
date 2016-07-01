@@ -203,6 +203,7 @@ function respondProduct(req, res, next){
   var id = req.params.id;
 
   var product = {
+<<<<<<< HEAD
     "productCode": 1,
     "category": "CLI",
     "subCategory": "AIR",
