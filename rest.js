@@ -202,7 +202,8 @@ function respondNotifications(req,res,next) {
 function respondProduct(req, res, next){
   var id = req.params.id;
 
-  var product = {
+  var products = [
+    {
     "productCode": 1,
     "category": "CLI",
     "subCategory": "AIR",
@@ -434,14 +435,256 @@ function respondProduct(req, res, next){
 
       }
     ]
+  },
+  {
+    "productCode": 9780465050659,
+    "category": "CLI",
+    "subCategory": "AIR",
+    "typeCode": "POR",
+    "brand": "ATMA",
+    "description": "AIRE PORT.3,0KWFS ATP30C12 CR ",
+    "largeDescritpion": "AIRE PORT.3,0KWFS ATP30C12 CR ",
+    "origin": null,
+    "saleCashPrice": 3609.0,
+    "saleListPrice": 3609.0,
+    "author": "",
+    "discontinuity": 3,
+    "stock": [
+      {
+        "store": 404,
+        "level": 23,
+        "group": "A"
+      },
+      {
+        "store": 494,
+        "level": 10,
+        "group": "B"
+      }
+    ],
+    "productFeatures":[
+      {
+        "label": "Descripcion corta",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Descripcion larga",
+        "value": "Diseño Compacto. Ultra Silencioso. Filtro totalmente Lavable. Display LCD. Temporizador 12hs. Novedoso accesorio de instalación manual. 3 Modos Operación: Refrigeración, Deshumidificación y Ventilación. Gas R-410a."
+      },
+      {
+        "label": "Jerarquia",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Cubicaje",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Precio costo",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Precio venta",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Indice ABC",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Imagen",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Origen",
+        "value": "CHINA"
+      },
+      {
+        "label": "Garantía",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Alto",
+        "value": "77.5  Cm"
+      },
+      {
+        "label": "Profundidad",
+        "value": "38.2  Cm"
+      },
+      {
+        "label": "Ancho",
+        "value": "46.5  Cm"
+      },
+      {
+        "label": "Peso",
+        "value": "31  Kg"
+      },
+      {
+        "label": "Producto",
+        "value": "AIRE ACONDICIONADO - PORTATIL"
+      },
+      {
+        "label": "Modelo",
+        "value": "ATP30C12"
+      },
+      {
+        "label": "Tipo de gas refrigerante",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      {
+        "label": "Display",
+        "value": "Si"
+      },
+      {
+        "label": "Timer",
+        "value": "Si"
+      },
+      {
+        "label": "Color",
+        "value": "Blanco"
+      },
+      {
+        "label": "Frigorias",
+        "value": "2580  Fg/h"
+      },
+      {
+        "label": "Potencia",
+        "value": "1150  W"
+      },
+      {
+        "label": "Eficiencia energética",
+        "value": "A"
+      },
+      {
+        "label": "Control remoto",
+        "value": "SSDD"
+      },
+      {
+        "label": "Tipo",
+        "value": "FRIO SOLO"
+      }
+    ],
+    "extendedWarranty": true,
+    "promotions":[
+      {
+        "code": "1234OF",
+        "endDate": "2017-06-01T23:00:00.000",
+        "description": "30% de Descuento en TV LED Samsung 55''",
+        "type": "catalogo",
+        "goal":"catalogo",
+        "priority": 100,
+        "price": 240.34,
+        "currency": "AR",
+        "monthlySalesCount": 23,
+        "currentDateSalesCount": 3,
+        "hotPromotion": true,
+        "deals": [
+          {
+            "restrictions":   [
+              {
+                "type": "producto",
+                "descrition": "todos"
+              },
+              {
+                "type": "contexto",
+                "descrition": "Resistencia - Santiago"
+              }
+            ],
+            "actions": [
+              {
+                "type": "plan de financiacion",
+                "descrition": "24 cuotas de 73.90"
+              },
+              {
+                "type": "precio fijo ",
+                "descrition": "$1900"
+              }
+            ]
+          },
+          {
+            "restrictions":   [
+              {
+                "type": "producto",
+                "descrition": "todos"
+              }
+            ],
+            "actions": [
+              {
+                "type": "precio fijo ",
+                "descrition": "$1900"
+              }
+            ]
+          }
+        ]
+
+      },
+      {
+        "code": "4444OF",
+        "endDate": "2017-06-01T23:00:00.000",
+        "description": "12 Cuotas sin interes en TV LED Samsung 55''",
+        "type": "megadia",
+        "goal":"megadia",
+        "priority": 98,
+        "monthlySalesCount": 12,
+        "currentDateSalesCount": 5,
+        "hotPromotion": true,
+        "deals": [
+          {
+            "restrictions":   [
+              {
+                "type": "producto",
+                "descrition": "todos"
+              },
+              {
+                "type": "contexto",
+                "descrition": "Resistencia - Santiago"
+              }
+            ],
+            "actions": [
+              {
+                "type": "plan de financiacion",
+                "descrition": "24 cuotas de 73.90"
+              },
+              {
+                "type": "precio fijo ",
+                "descrition": "$1900"
+              }
+            ]
+          },
+          {
+            "restrictions":   [
+              {
+                "type": "producto",
+                "descrition": "todos"
+              }
+            ],
+            "actions": [
+              {
+                "type": "precio fijo ",
+                "descrition": "$1900"
+              }
+            ]
+          }
+        ]
+
+      }
+    ]
+  }
+ ]
+
+  var product = products.filter( function (obj) {
+    return obj.productCode == id;
+  })[0];
+
+  if(product){
+    res.send(product);
+  } else{
+    res.status(404);
+    res.send('No hay producto con ID ' + id);
   }
 
-  if(id == product.productCode){
-    res.send(product);
-  }else{
-    res.status(404);
-    res.send('There is no product with id ' + id);
-  }
+
+  // res.status(404);
+  // res.send('No hay producto con ID ' + id);
 
 }
 
