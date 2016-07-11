@@ -1,5 +1,6 @@
 var restify = require("restify");
 var server = restify.createServer();
+var errors = require('restify-errors'); // check https://github.com/restify/errors
 
 server.use(
   function crossOrigin(req,res,next){
@@ -11,7 +12,7 @@ server.use(
 
 server.get('/', respond);
 server.get('/api/promotions', respondPromotions);
-server.get('/api/notifications', respondNotifications);
+server.get('/api/notifications', respondError401);
 server.get('/api/product/:id', respondProduct);
 
 var port = process.env.PORT || 5000;
@@ -22,6 +23,10 @@ server.listen(port, function() {
 
 function respond(req, res, next) {
     res.send('Welcome to your API test!');
+}
+
+function respondError401(req, res, next) {
+  return next(new errors.UnauthorizedError('No token!'));
 }
 
 function respondPromotions(req,res,next) {
