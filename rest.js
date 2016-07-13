@@ -11,7 +11,7 @@ server.use(
 );
 
 server.get('/', respond);
-server.get('/api/promotions', respondPromotions);
+server.get('/api/promotions', respondError401);
 server.get('/api/notifications', respondError401);
 server.get('/api/product/:id', respondProduct);
 
