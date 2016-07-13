@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "simple rest server for testing",
   "dependencies": {
-    "restify": "^4.1.0"
+    "restify": "^4.1.0",
+    "restify-errors": "^4.2.3"
   }
 }
